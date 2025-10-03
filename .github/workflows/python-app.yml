@@ -28,5 +28,6 @@ jobs:
         pip install -r requirements.txt
     - name: Test with unittest
       run: |
+        cd src
         python3 main.py
         python -m unittest
